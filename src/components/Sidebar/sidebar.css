@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  height: calc(200vh - 82px);
+  background-color: #190237;
+  top: 82px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 3;
+  -webkit-box-shadow: 2px 2px 2px #19023765;
+          box-shadow: 2px 2px 2px #19023765;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.sidebar .dash_box {
+  color: #d6d6d6;
+  margin: 2rem 0;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.sidebar .dash_box .dashboard {
+  font-size: 25px;
+  margin-right: 1rem;
+}
+
+.sidebar .dash_box .dashboard_text {
+  display: block;
+}
+
+.sidebar .dash_box:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1300px) {
+  .sidebar {
+    top: 72px;
+    height: calc(200vh - 72px);
+    left: -100%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .sidebar {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=sidebar.css.map */

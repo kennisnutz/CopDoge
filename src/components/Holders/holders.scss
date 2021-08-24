@@ -1,0 +1,74 @@
+.total_bnb{
+    border: 1px solid #cfcfcf;
+    border-left: none;
+    width: 99.9%;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    padding: 3rem 2rem;
+
+    .holders{
+        flex-direction: column;
+
+        .title{
+            margin: 2rem 0;
+            font-size: 45px;
+            font-weight: 800;
+            color: #161616;
+        }
+
+        .Bnb{
+            font-size: 85px;
+            font-weight: 700;
+            span{
+                color: #2FC48D;
+            }
+            span:nth-child(2){
+                color: #FFBC11;
+                margin-left: 1rem;
+            }
+        }
+
+        .Dollar{
+            margin: 2rem 0;
+            font-size: 85px;
+            font-weight: 700;
+            color: #2FC48D;
+            span{
+                margin: 0 .2rem;
+            }
+            span:nth-child(1){
+                margin-right: 1.5rem;
+            }
+        }
+    }
+    
+
+    .total_bnb_bg{
+        background-color: #e68e8e23;
+        height: 640px;
+        filter: blur(3px);
+        position: absolute;
+        margin-top: -50px;
+        margin-left: -35px;
+        width: 100%;
+    }
+
+    img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .title{
+        font-size: 30px !important;
+    }
+    .Bnb{
+        font-size: 35px !important;
+    }
+    .Dollar{
+        font-size: 35px !important;
+    }
+    .total_bnb_bg{
+        height: 500px !important;
+    }
+}

@@ -1,0 +1,48 @@
+.sidebar {
+    width: 250px;
+    height: calc(200vh - 82px);
+    background-color: #190237;
+    top: 82px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    box-shadow: 2px 2px 2px #19023765;
+    transition: all .3s ease-in-out;
+
+    .dash_box {
+        color: #d6d6d6;
+        margin: 2rem 0;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+
+        .dashboard{
+            font-size: 25px;
+            margin-right: 1rem;
+        }
+
+        .dashboard_text{
+            display: block;
+        }
+
+        &:hover{
+            color: #fff;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .sidebar{
+        top: 72px;
+        height: calc(200vh - 72px);
+        left: -100%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .sidebar{
+        width: 200px;
+    }
+  }

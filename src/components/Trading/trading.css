@@ -1,0 +1,123 @@
+.trading {
+  width: 100%;
+}
+
+.trading .info {
+  font-size: 20px;
+  font-weight: 400;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #393424;
+}
+
+.trading .TradingVolumeFunc {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  color: #393424;
+  font-size: 20px;
+  text-align: center;
+}
+
+.trading .TradingVolumeFunc span {
+  font-size: 25px;
+  color: #393424;
+  font-weight: 700;
+  margin: 0 .5rem;
+}
+
+.trading .tradingVolume {
+  width: 200px;
+  height: 50px;
+  background-color: #190237;
+  outline: none;
+  color: silver;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 .5rem;
+}
+
+.kodi_box {
+  width: 500px;
+  padding: 2rem;
+  color: #fff;
+  margin-bottom: 5rem;
+  border-radius: .3rem;
+  -webkit-box-shadow: 0px 20px 30px 5px #0000008c;
+          box-shadow: 0px 20px 30px 5px #0000008c;
+}
+
+.kodi_box h2.earns_heading {
+  height: 70px;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.kodi_box h4 {
+  margin: 1rem 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.kodi_box h4 span {
+  margin: 0 .2rem;
+}
+
+.kodi_box .bnb {
+  color: #FFBC11;
+}
+
+.kodi_box .dollar {
+  color: #2FC48D;
+}
+
+.kodi_box .time {
+  color: silver;
+}
+
+.kodi_box h5 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .trading .info {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .trading .earns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .TradingVolumeFunc {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .TradingVolumeFunc {
+    width: 90% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tradingVolume {
+    margin-top: 1rem;
+  }
+  .kodi_box {
+    width: 99.5%;
+  }
+}
+/*# sourceMappingURL=trading.css.map */
